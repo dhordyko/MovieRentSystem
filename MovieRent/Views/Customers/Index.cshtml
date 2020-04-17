@@ -1,0 +1,101 @@
+﻿@model IEnumerable<MovieRent.Models.Customer>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Klienci</h2>
+
+    <button class="btn btn-primary">@Html.ActionLink("New customer", "CustomerForm", "Customers",null, new {@class="link"})</button>
+    <table id="customers" class="table table-bordered table-striped table-hover">
+       
+        <thead class="thead-inverse">
+            <tr>
+                <th>Imie</th>
+                <th>Typ Abonementa</th>
+                <th>Zniżka</th>
+                <th>Login</th>
+                <th>Usuń</th>
+            </tr>
+        </thead>
+        <tbody>
+
+                </tbody></table>
+            
+   @section scripts{
+<script>
+           $(document).ready(function () {
+              var table= $("#customers").DataTable({
+                   ajax: {
+                       url: '/api/customers',
+                       dataSrc: ""
+                   },
+
+                   columns: [
+                       {
+                           data: "Name",
+                           render: function (data, type, row) {
+                               return "<a href='/Customers/edit/" + row.Id + "'>" + row.Name + "</a>"
+
+                           }
+                       },
+                       {
+                           data: "MembershipType.Name"
+                       },
+                       {
+                           data: "MembershipType.DiscountRate"
+
+                       },
+                        {
+                            data: "Email"
+
+                        },
+                       {
+                           data: "Id",
+                           render: function (data) {
+                               return "<button class='btn-link js-delete' data-customer-id=" + data + ">Usuń</button>";
+                           }
+                       }
+                   ]
+
+               });
+               $(document).on('click', '.js-delete', function () {
+                   var button = $(this);
+
+                   bootbox.confirm({
+                       message: "Czy chcesz usunąć klienta ?",
+                       buttons: {
+                           confirm: {
+                               label: 'Tak',
+
+                           },
+                           cancel: {
+                               label: 'Nie',
+
+                           }
+                       },
+                       className: "delete-clients",
+                       callback: function (result) {
+                           if (result == true) {
+                               $.ajax({
+                                   url: "/api/customers/" + $(button).attr("data-customer-id"),
+                                   method: "DELETE",
+                                   success: function () {
+
+                                       table.row(button.parents("tr")).remove().draw();
+                                   }
+                               })
+                           }
+                           else { }
+                       }})
+
+               });
+
+
+
+           });
+
+</script>
+     
+       }
+         

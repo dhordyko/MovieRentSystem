@@ -1,0 +1,18 @@
+﻿@model MovieRent.Models.Customer
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var birthdate = Model.BirthDate == null ? "none" : null;
+}
+
+<h2>Profile</h2>
+<h3>@Model.Name</h3>
+<ul>
+    <li>
+        @Model.MembershipType.Name
+    </li>
+    <li style="display:@birthdate">
+        @Model.BirthDate
+    </li>
+
+</ul>

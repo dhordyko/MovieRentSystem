@@ -1,0 +1,88 @@
+﻿
+@model IEnumerable<MovieRent.View_Models.MembershipView>
+
+@{
+    ViewBag.Title = "Myorder";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+
+    }
+@{ 
+
+    
+    int sum = 0;
+    double suma = 0;
+    double result = 0;
+    var currentDate = DateTime.Now;
+    
+
+
+
+}
+@using (Html.BeginForm("AddOrders", "AddToCart", FormMethod.Post))
+{
+  @Html.Partial("MyOrderHeader")
+<hr /> 
+  
+<div id = "dvContents"> <table class="table table-hover" width = "100%"> 
+       <thead> <tr > 
+           <th>NumerId</th>           <th> Nazwa </th>  
+            <th> Obrazek </th> 
+            <th> Typ abonementu </th>  
+            <th> Zniżka </th>  
+            <th> Cena </th>  
+            <th> Usuń </th> 
+             </tr>   </thead> 
+   <tbody>@foreach (var x in Model)
+   { <tr> 
+      <td>@x.Movie.Id</td> 
+       <td>@x.Movie.Name.ToString()</td>  
+   <td><div class="cart-image mb-5" style="background-image:url(../Img/@x.Movie.Image)"></div></td>
+  <td>@x.Customer.MembershipType.Name</td> 
+  <td>@x.Customer.MembershipType.DiscountRate</td> 
+  <td>@x.Customer.MembershipType.Price</td> 
+  <td> 
+      <a href="@Url.Action("Remove", "AddToCart", @x.Movie)" class="btn btn-link">Usuń</a>
+       
+  </td></tr>}
+       </tbody>
+</table>
+    </div>
+<div class="form-group">
+    
+
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+            
+            <div class="col-md-6 order-list-button"><input value="Zatwierdz" type="submit" class="btn btn-primary"/></div>
+            <div class="col-md-6">
+                @foreach (var x in Model)
+                {
+
+                    var items = Int32.Parse(Session["count"].ToString());
+                    suma = x.Customer.MembershipType.Price * items;
+                    result = suma - (suma * x.Customer.MembershipType.DiscountRate) / 100;
+                    var order = x.Orders;
+
+                }
+            <span class="cena">Suma: @result zł</span>
+        </div>
+    </div>
+</div>
+
+
+    }
+
+
+@section scripts {
+    <script>
+       $("#datetimepicker2").datetimepicker();
+        
+       
+        
+    </script>
+}
+
+  

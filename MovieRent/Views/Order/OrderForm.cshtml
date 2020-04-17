@@ -1,0 +1,143 @@
+﻿@model IEnumerable<MovieRent.Models.Orders>
+@{
+    ViewBag.Title = "View";
+}
+@{
+
+
+    int sum = 0;
+    double suma = 0;
+    double result = 0;
+    var currentDate = DateTime.Now;
+
+
+
+
+}
+
+<h2>View</h2>
+
+<p>
+    
+</p>
+<table class="table">
+    <tr>
+        <th>
+        Nazwa
+        </th>
+        <th>
+         Cena
+        </th>
+        <th>
+            Zniżka
+        </th>
+        <th>
+            Sposób dostawy
+        </th>
+        <th>
+            Data wypozyczenia
+        </th>
+        <th>
+            Data zwrotu
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr id="test" >
+        <td>
+            <a href="/Movie/edit/@item.MovieId">@item.Name</a>
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem =>item.Cena)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem=>item.Customer.MembershipType.DiscountRate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DeliveryMode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PickUpDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RentPeriod)
+        </td>
+        <td>
+           
+          
+            <a class="js-delete" href="#" data-movie-id="@item.OrdersId" >Delete</a>
+        </td>
+    </tr>
+   foreach (var x in Model)
+                {
+
+                    var items = Model.Count();
+                    suma = x.Customer.MembershipType.Price * items;
+                    result = suma - (suma * x.Customer.MembershipType.DiscountRate) / 100;
+                 
+
+                }
+}
+    
+</table>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <span class="cena" style="float:right; color:red">Suma: @result zł</span>
+            </div>
+        </div>
+</div>
+@section scripts{
+  <script>
+
+      $(document).on('click', '.js-delete', function () {
+          var button = $(this);
+
+          bootbox.confirm({
+              message: "Do you want to delete this customer",
+
+
+              callback: function (result) {
+                  if (result == true) {
+                      $.ajax({
+                                url: "/api/orders/" + $(button).attr("data-movie-id"),
+                                method: "DELETE",
+                                success: function () {
+                                  
+                                    button.closest('tr').remove();
+                                    
+                                }
+                            })
+                  }
+              }
+
+          });
+      });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }

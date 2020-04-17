@@ -1,0 +1,16 @@
+﻿@model MovieRent.Models.Movie
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Profile</h2>
+<h3>@Model.Name</h3>
+<ul>
+    <li>Gatunek:@Model.GenreType.Name</li>
+   
+  <li>Data relizu: @Model.ReleaseDate.DayOfWeek, @Model.ReleaseDate.Day @Model.ReleaseDate.ToString("MMMM", @Model.usEnglish) @Model.ReleaseDate.Year</li>
+<li>Data tostawy:@Model.AddedDate.DayOfWeek, @Model.AddedDate.Day @Model.AddedDate.ToString("MMMM",@Model.usEnglish) @Model.AddedDate.Year</li>
+<li>@Model.StockNumber</li>
+</ul>
+

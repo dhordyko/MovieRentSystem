@@ -1,0 +1,101 @@
+﻿
+@model IEnumerable<MovieRent.Models.Movie>
+
+
+@{
+    ViewBag.Title = "Dramat";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="display-2 text-muted">Dramat</h2>
+@foreach (var mov in Model)
+{
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-block">
+                        <div class="card-header text-center lead display-4 bg-primary">
+
+                            <strong> @mov.Name</strong>
+
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-4 text-xs-center p-y-1">
+                                <div id="card-img" class="cover-image mb-5" style="background-image:url(../Img/@mov.Image)"></div>
+                            </div>
+                            <div id="FantasyData" class="col-md-3  p-y-1">
+
+                                <p class="lead">Rok:<small> @Html.Label(@mov.ReleaseDate.Value.Year.ToString())</small></p>
+                                <p class="lead">Kraj:<small> @Html.Label(@mov.Coutnry.Name.ToString())</small></p>
+                                <p class="lead">Reżyser:<small> @Html.Label(@mov.Director.ToString())</small> </p>
+                                <p class="lead">Aktorzy:<small> @Html.Label(@mov.Actors.ToString())</small></p>
+                                <p class="lead">Długość:<small> @Html.Label(@mov.Duration.ToString())</small></p>
+
+                            </div>
+                            <div class="col-md-5 text-xs-center p-y-1">
+                                <div id="FantasyMovieDscr" class="jumbotron bg-light p-x-0">
+                                    <h4 class="display-3 bg-primary">Opis:</h4>
+                                  <p class="lead"><small> @Html.Label("descr-text",mov.Text.ToString())</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <input type="submit" style="margin-left:60px" id="@mov.Id" class="btn btn-info btn-lg btn_add" value="Dodaj do koszyka" />
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+        <br />
+        <br />
+
+
+}
+@section scripts{
+    <script type="text/javascript">
+
+
+        $('.btn_add').click(function () {
+            var id = $(this).attr('id');
+            bootbox.confirm({
+                message: "Czy chcesz dodać film do koszyka?",
+                buttons: {
+                    confirm: {
+                        label: 'Tak',
+
+                    },
+                    cancel: {
+                        label: 'Nie',
+
+                    }
+                },
+                className: "my-popup",
+
+                callback: function () {
+
+                    $.ajax({
+                       type: 'POST',
+                     dataType: 'json',
+                       url: '/AddToCart/Add/',
+                       data: { id: id},
+
+
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+
+                        }
+                    });
+
+                }
+          })
+         })
+
+    </script>
+
+
+
+}

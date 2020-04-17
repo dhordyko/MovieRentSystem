@@ -1,0 +1,113 @@
+﻿@model IEnumerable<MovieRent.Models.Movie>
+@{
+    ViewBag.Title = "Movies";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Movies</h2>
+
+
+    <button id="newfilm" class="btn btn-primary">@Html.ActionLink("Nowy Film","MovieForm","Movie", null, new { @class = "link" })</button>
+<br />
+<table id="movies" class="table table-bordered table-striped table-hover">
+    <thead class="thead-inverse">
+        <tr>
+            <th>Film</th>
+            <th>Gatunek</th>
+            <th>Usuń</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+
+    </tbody>
+</table>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+        
+            var table = $("#movies").DataTable({
+                ajax: {
+                    url: '/api/movies',
+                    dataSrc: ""
+                },
+                columns: [
+                    {
+                        data: "Name",
+                        render: function (data, type, row) {
+                            return "<a href='/Movie/edit/" + row.Id + "'>" + row.Name + "</a>"
+
+                        }
+                    },
+                    {
+                        data: "GenreType.Name"
+                    },
+                   
+                    {
+                        data: "Id",
+                        render: function (data) {
+                            return "<button class='btn-link js-delete' data-movie-id=" + data + ">Usuń</button>";
+                        }
+                    }
+                ]
+
+            });
+            $(document).on('click', '.js-delete', function () {
+                var button = $(this);
+
+                bootbox.confirm({
+                    message: "Czy chcesz usunąć film ?",
+                    buttons: {
+                        confirm: {
+                            label: 'Tak',
+
+                        },
+                        cancel: {
+                            label: 'Nie',
+
+                        }
+                    },
+                    className: "delete-msg",
+                   
+
+                    callback: function (result) {
+                        if (result == true) {
+                            $.ajax({
+                                url: "/api/movies/" + $(button).attr("data-movie-id"),
+                                method: "DELETE",
+                                success: function () {
+
+                                    table.row(button.parents("tr")).remove().draw();
+                                }
+                            })
+                        }
+                        else { }
+                    }
+                })
+
+            });
+
+
+
+
+
+
+        });
+
+
+
+
+
+
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+}

@@ -1,0 +1,541 @@
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\ApplicationInsights.config
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\roslyn\csc.exe
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\roslyn\System.Collections.Immutable.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\roslyn\vbc.exe
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\roslyn\VBCSCompiler.exe
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\roslyn\VBCSCompiler.exe.config
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\MovieRent.dll.config
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\MovieRent.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\MovieRent.pdb
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Antlr3.Runtime.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\EntityFramework.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\EntityFramework.SqlServer.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.AI.Web.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.AI.WindowsServer.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.ApplicationInsights.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.Security.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.Security.Google.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Web.Infrastructure.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Newtonsoft.Json.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Owin.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.Helpers.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.Mvc.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.Optimization.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.Razor.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.WebPages.Deployment.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.WebPages.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.WebPages.Razor.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\WebGrease.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.AI.Web.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.AI.WindowsServer.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.ApplicationInsights.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.Helpers.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.Mvc.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.Optimization.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.Razor.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.WebPages.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.WebPages.Deployment.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.WebPages.Razor.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Antlr3.Runtime.pdb
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Newtonsoft.Json.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\EntityFramework.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\EntityFramework.SqlServer.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.Security.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.Security.Google.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\obj\Debug\MovieRent.csprojResolveAssemblyReference.cache
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\obj\Debug\MovieRent.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\obj\Debug\MovieRent.pdb
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.initialModel.resources
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\obj\Debug\MovieRent.csproj.GenerateResource.Cache
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.initialModel1.resources
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.initialModel2.resources
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.initialModel3.resources
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.initialModel4.resources
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\AutoMapper.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Net.Http.Formatting.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.Http.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.Http.WebHost.dll
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\AutoMapper.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Net.Http.Formatting.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.Http.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\bin\System.Web.Http.WebHost.xml
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.Membership.resources
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.MembershipName.resources
+c:\users\darya\documents\visual studio 2015\Projects\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.GenreTypeSeed.resources
+C:\Users\Darya\Documents\Visual Studio 2015\Projects\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.SeedUsers.resources
+C:\Users\Darya\Documents\Visual Studio 2015\Projects\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.RegisterViewModeld.resources
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\ApplicationInsights.config
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\roslyn\csc.exe
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\roslyn\vbc.exe
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\roslyn\VBCSCompiler.exe
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\MovieRent.dll.config
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\MovieRent.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\MovieRent.pdb
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Antlr3.Runtime.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\AutoMapper.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\EntityFramework.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\EntityFramework.SqlServer.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.AI.Web.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.Security.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Newtonsoft.Json.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Owin.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Net.Http.Formatting.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.Helpers.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.Http.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.Http.WebHost.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.Mvc.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.Optimization.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.Razor.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.WebPages.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.WebPages.Razor.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\WebGrease.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\AutoMapper.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.AI.Web.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Net.Http.Formatting.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.Http.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.Http.WebHost.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.Helpers.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.Mvc.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.Optimization.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.Razor.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.WebPages.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\System.Web.WebPages.Razor.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Antlr3.Runtime.pdb
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Newtonsoft.Json.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\EntityFramework.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\EntityFramework.SqlServer.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.Security.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.csprojResolveAssemblyReference.cache
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.initialModel.resources
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.initialModel1.resources
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.initialModel2.resources
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.initialModel3.resources
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.initialModel4.resources
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.Membership.resources
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.MembershipName.resources
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.GenreTypeSeed.resources
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.SeedUsers.resources
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.RegisterViewModeld.resources
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.csproj.GenerateResource.Cache
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.dll
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.pdb
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.add.resources
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.birthday.resources
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.membershipTypeId.resources
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.Name.resources
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.Phone.resources
+C:\Users\Darya\Desktop\MovieRent\MovieRent\obj\Debug\MovieRent.Migrations.Image.resources
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\ApplicationInsights.config
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\roslyn\csc.exe
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\roslyn\vbc.exe
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\roslyn\VBCSCompiler.exe
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\MovieRent.dll.config
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\MovieRent.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\MovieRent.pdb
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Antlr3.Runtime.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\AutoMapper.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\EntityFramework.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\EntityFramework.SqlServer.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.AI.Web.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.Security.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Newtonsoft.Json.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Owin.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Net.Http.Formatting.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.Helpers.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.Http.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.Http.WebHost.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.Mvc.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.Optimization.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.Razor.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.WebPages.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.WebPages.Razor.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\WebGrease.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\AutoMapper.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.AI.Web.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Net.Http.Formatting.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.Http.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.Http.WebHost.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.Helpers.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.Mvc.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.Optimization.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.Razor.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.WebPages.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\System.Web.WebPages.Razor.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Antlr3.Runtime.pdb
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Newtonsoft.Json.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\EntityFramework.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\EntityFramework.SqlServer.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.Security.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\obj\Debug\MovieRent.csprojResolveAssemblyReference.cache
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\obj\Debug\MovieRent.dll
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\obj\Debug\MovieRent.pdb
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.addmovies.resources
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\obj\Debug\MovieRent.csproj.GenerateResource.Cache
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.cout.resources
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.countriesseed.resources
+C:\Users\Darya\Desktop\MovieRent03.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.actors.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\ApplicationInsights.config
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\roslyn\csc.exe
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\roslyn\vbc.exe
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\roslyn\VBCSCompiler.exe
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\MovieRent.dll.config
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\MovieRent.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\MovieRent.pdb
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Antlr3.Runtime.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\AutoMapper.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\EntityFramework.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\EntityFramework.SqlServer.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.Web.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Newtonsoft.Json.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Owin.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Net.Http.Formatting.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.Helpers.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.Http.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.Http.WebHost.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.Mvc.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.Optimization.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.Razor.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.WebPages.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.WebPages.Razor.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\WebGrease.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\AutoMapper.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.Web.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Net.Http.Formatting.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.Http.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.Http.WebHost.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.Helpers.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.Mvc.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.Optimization.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.Razor.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.WebPages.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\System.Web.WebPages.Razor.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Antlr3.Runtime.pdb
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Newtonsoft.Json.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\EntityFramework.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\EntityFramework.SqlServer.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.csprojResolveAssemblyReference.cache
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.addmovies.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.cout.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.countriesseed.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.actors.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.csproj.GenerateResource.Cache
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.dll
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.pdb
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.DirectorInput.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.Requiredinputs.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.fields.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.delete.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.newcols.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.price.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.chngs.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.orders.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.orders1.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.orders_chngs.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.ords.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.ords1.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.frgnkeyorder.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.ordsfrkey.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.ordernmbadd.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.newdata.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations._new.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.dlt.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.PickUpDate.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.RentPeriod.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.data.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.data2.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.userroles.resources
+C:\Users\Darya\Desktop\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.pickupdt.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\ApplicationInsights.config
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\roslyn\csc.exe
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\roslyn\vbc.exe
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\roslyn\VBCSCompiler.exe
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\MovieRent.dll.config
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\MovieRent.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\MovieRent.pdb
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Antlr3.Runtime.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\AutoMapper.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\EntityFramework.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\EntityFramework.SqlServer.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.Web.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Newtonsoft.Json.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Owin.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Net.Http.Formatting.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.Helpers.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.Http.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.Http.WebHost.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.Mvc.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.Optimization.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.Razor.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.WebPages.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.WebPages.Razor.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\WebGrease.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\AutoMapper.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\EntityFramework.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\EntityFramework.SqlServer.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.Web.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Net.Http.Formatting.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.Http.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.Http.WebHost.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.Helpers.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.Mvc.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.Optimization.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.Razor.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.WebPages.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\System.Web.WebPages.Razor.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Antlr3.Runtime.pdb
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Newtonsoft.Json.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.csprojResolveAssemblyReference.cache
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.addmovies.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.cout.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.countriesseed.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.actors.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.DirectorInput.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.Requiredinputs.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.fields.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.delete.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.newcols.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.price.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.chngs.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.orders.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.orders1.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.orders_chngs.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.ords.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.ords1.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.frgnkeyorder.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.ordsfrkey.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.ordernmbadd.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.newdata.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations._new.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.dlt.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.PickUpDate.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.RentPeriod.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.data.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.data2.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.userroles.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.Migrations.pickupdt.resources
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.csproj.GenerateResource.Cache
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.dll
+C:\Users\Darya\Desktop\Projects\MovieRent05.04.2019\MovieRent\obj\Debug\MovieRent.pdb

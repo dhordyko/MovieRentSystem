@@ -1,0 +1,191 @@
+﻿@model MovieRent.View_Models.MovieViewModel
+@{
+   
+    ViewBag.Title = "MovieForm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Title</h2>
+@using (Html.BeginForm("MovieForm", "Movie", FormMethod.Post, new{enctype = "multipart/form-data"}))
+{   <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    @Html.LabelFor(n => n.Movie.Name)
+                    @Html.TextBoxFor(n => n.Movie.Name, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Movie.Name)
+                    
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(n => n.Movie.ReleaseDate)
+                    @Html.TextBoxFor(n => n.Movie.ReleaseDate, "{0:d}", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Movie.ReleaseDate)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(n => n.Movie.AddedDate)
+                    @Html.TextBoxFor(n => n.Movie.AddedDate, "{0:d}", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Movie.AddedDate)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(n => n.Movie.GenreTypeId)
+                    @Html.DropDownListFor(n => n.Movie.GenreTypeId, new SelectList(Model.GenreTypes, "Id", "Name"), "", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Movie.GenreTypeId)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(n => n.Movie.StockNumber)
+                    @Html.TextBoxFor(n => n.Movie.StockNumber, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Movie.StockNumber)
+                </div>
+                <div class="form-group">@Html.LabelFor(n => n.Movie.Image)</div>
+                @Html.ValidationMessageFor(m => m.Movie.Image)
+                    
+            <div class="form-group">
+
+                            <label class="btn btn-default btn-danger">
+                            Załaduj @Html.TextBoxFor(n => n.Movie.Image, new { @name = "ImageUpload", @type = "file", @style = "display:none",
+                                  onchange = "previewFile()" })
+                        </label>
+                            
+                        </div>
+                        @Html.HiddenFor(m => m.Movie.Id)
+                       
+                    </div>
+                    <div class="col-md-4">
+                        <img id="user_img"
+                             height="300"
+                             width="390"
+                             style="border:solid" src="~/"/>
+                        <div class="form-group">
+                            @Html.LabelFor(n => n.Movie.Text)
+                            @Html.TextAreaFor(n=>n.Movie.Text, new { @class = "form-control width-textarea", @style = "max-width:450px !important" })
+                            @Html.ValidationMessageFor(m => m.Movie.Text)
+                        </div>
+                        <button type="submit" class="btn btn-primary">Zatwierdz</button>
+                    </div>
+            <div class="col-md-4">
+
+                <div class="col-md-10">
+                    @Html.LabelFor(m => m.Movie.CountryId)
+                    @Html.DropDownListFor(m => m.Movie.CountryId, new SelectList(Model.Countries, "Id", "Name"), "", new { @class = "form-control"})
+                    @Html.ValidationMessageFor(m => m.Movie.CountryId)
+                </div>
+                <div id="actors" class="col-md-10 ">
+                    @Html.LabelFor(m => m.Movie.Actors)
+                    @Html.ListBoxFor(m => m.selectedAct, Model.actList, new { @onclick = "DeleteItem()", @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Movie.Actors)
+                    <input id="ActorInput" type="text" class="form-control" value="@Model.Movie.Actors"/>
+                    <label id="ListBoxBtn" class="btn btn-danger" onclick="foo.push(ListActors())">Upload</label>
+                </div>
+                <div class="form-group">
+
+                    @Html.TextBoxFor(n => n.Movie.Actors, new { @type = "hidden" })
+
+                </div>
+                <div class="col-md-10">
+                    <div id="director" class="form-group">
+                        @Html.LabelFor(n => n.Movie.Director)
+                        @Html.TextBoxFor(n => n.Movie.Director, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Movie.Director)
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="form-group">
+                        @Html.LabelFor(n => n.Movie.Duration)
+                        @Html.TextBoxFor(n => n.Movie.Duration, new { @class = "form-control", @placeholder="00:00" })
+                       
+                        @Html.ValidationMessageFor(m => m.Movie.Duration)
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+              
+}
+@section scripts{
+   <script >
+      
+       function previewFile() {
+           var preview = document.querySelector('img');
+           var file = document.querySelector('input[type=file]').files[0];
+           var reader = new FileReader();
+
+           reader.onloadend = function () {
+               preview.src = reader.result;
+           }
+
+           if (file) {
+               reader.readAsDataURL(file);
+           } else {
+               preview.src = "";
+           }
+       };
+       var foo = [];
+      
+
+       var sel = document.getElementById("selectedAct");
+       //sel.addEventListener("click", DeleteItem);
+      
+
+       
+
+       function  ListActors() {
+           var txtInput = document.getElementById("ActorInput").value;
+           var hiddenvls = document.getElementById("Movie_Actors");
+           var sel = document.getElementById("selectedAct");
+           var opt = document.createElement('option');
+           
+           var arr = [];
+           opt.innerText = txtInput;
+           hiddenvls.innerText = txtInput;
+           sel.appendChild(opt);
+           var x = foo.join();
+           hiddenvls.value = x;
+           return opt.innerText;
+       };
+
+      
+       
+       function DeleteItem() {
+          
+           var hiddenvls = document.getElementById("Movie_Actors");
+           var value = sel[sel.selectedIndex].value;
+        
+           var slctopt = sel.selectedOptions[0];
+           slctopt.remove();
+           
+           for (var i = 0; i < foo.length; i++) {
+              if (foo[i] === value) {
+                 foo.splice(i, 1);
+              }
+           }
+           var x = foo.join();
+           hiddenvls.value = x;
+ }
+     
+
+
+       //$(document).on('click', '.js-delete', function () {
+       //    var button = $(this);
+
+       //    bootbox.confirm({
+       //        message: "Do you want to add this movie",
+                   
+
+       //        callback: function (result) {
+       //            if (result == true) {
+       //                $.ajax({
+       //                    url: "/api/movies/" ,
+       //                    method: "PUT",
+       //                    success: function () {
+
+       //                        alert("success");
+       //                    }
+       //                }
+       //                )}
+       //        }
+       //    })
+       //    });
+                
+              
+          </script> 
+    }

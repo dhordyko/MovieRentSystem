@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @*<link href="/bower_components/font-awesome/css/font-awesome.css" rel="stylesheet">*@
+    <link href="/bower_components/datatables.net-plugins/integration/font-awesome/dataTables.fontAwesome.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Wypozyczalnia kaset", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    @if (User.IsInRole("CanManageMovie"))
+                    {
+                    <li>@Html.ActionLink("Filmy", "Index", "Movie")</li>
+                    <li>@Html.ActionLink("Klienci", "Index", "Customers")</li>
+                    <li>@Html.ActionLink("Zamówienia", "Index", "Order")</li>
+                    }
+                    <li>@Html.ActionLink("Kontakt", "Contact", "Home")</li>
+                    <li class="active">
+                        <a href="@Url.Action("Myorder", "AddToCart")" class="btn">
+                            <span class="fa fa-shopping-cart text-primary" style="width:50%; height:50%" ></span>Kosz <span class="badge"></span>
+                            @Session["count"]
+                            </a>
+                        @ViewBag.Error
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/lib")
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/moment")
+@Scripts.Render("~/bundles/bootstrap")
+
+
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

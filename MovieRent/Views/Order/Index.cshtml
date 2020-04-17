@@ -1,0 +1,114 @@
+﻿
+@model IEnumerable<MovieRent.Models.Orders>
+@{
+    ViewBag.Title = "Zamówienia";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Zamówienia</h2>
+
+
+
+<table id="orders" class="table table-bordered table-striped table-hover">
+    <thead class="thead-inverse">
+        <tr>
+            <th>Klient</th>
+            <th>Email</th>
+            <th>Typ Abonementa</th>
+            <th>Data wypozyczenia</th>
+            <th>Data zwrotu</th>
+            <th>Numer zamówienia</th>
+            <th>Usuń</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+
+            var table = $("#orders").DataTable({
+                ajax: {
+                    url: '/api/orders',
+                    dataSrc: "",
+                },
+                columns: [
+                    {
+                        data: "Customer",
+                        render: function (data, type, row) {
+                            return "<a href='/Customers/edit/" +data.Id+ "'>" + data.Name+ "</a>"
+
+                        }
+                       
+                    },
+                    {
+                        data: "Customer.Email",
+
+                    },
+                    {
+                        data: "AbonementType"
+                    },
+                    {
+                        data: "PickUpDate"
+                    },
+                    {
+                        data: "RentPeriod"
+                    },
+
+                     {
+                         data: "OrderNmb",
+                         render: function (data, type, row) {
+                             return "<a href='/Order/OrderForm/" + data + "'>" + data + "</a>"
+
+                         }
+                         
+                     },
+                     { 
+                         data: "OrderNmb",
+                         render: function (data, type, row) {
+                              return "<button class='btn-link js-delete' data-customer-id=" + data + ">Usuń</button>";
+
+                         }
+
+                     }
+                    
+                ]
+
+            });
+            $(document).on('click', '.js-delete', function () {
+                var button = $(this);
+
+                bootbox.confirm({
+                    message: "Czy chcesz usunąć zamówienie ?",
+                    buttons: {
+                        confirm: {
+                            label: 'Tak',
+
+                        },
+                        cancel: {
+                            label: 'Nie',
+
+                        }
+                    },
+                    className: "delete-orders",
+                    callback: function (result) {
+                        if (result == true) {
+                            $.ajax({
+                                url: "/api/orders/" + $(button).attr("data-customer-id"),
+                                method: "DELETE",
+                                success: function () {
+
+                                    table.row(button.parents("tr")).remove().draw();
+                                }
+                            })
+                        }
+                        else { }
+                    }
+                })
+
+            });
+
+    });
+        </script>
+    }
+

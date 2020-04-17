@@ -1,0 +1,50 @@
+﻿@model IEnumerable<MovieRent.Models.Movie> 
+@foreach (var movie in Model)
+{
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-block">
+                        <div class="card-header text-center lead display-4 bg-primary">
+
+                            <strong> @movie.GenreType</strong>
+
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-4 text-xs-center p-y-1">
+                                <div class="cover-image mb-5" style="background-image:url(../Img/@movie.Image)"></div>
+                            </div>
+                            <div id="FantasyData" class="col-md-3  p-y-1">
+
+                                <p class="lead">Rok:<small> @Html.Label(@movie.ReleaseDate.Value.Year.ToString())</small></p>
+                                <p class="lead">Kraj:<small> @Html.Label(@movie.Coutnry.Name.ToString())</small></p>
+                                <p class="lead">Reżyser:<small> @Html.Label(@movie.Director.ToString())</small> </p>
+                                <p class="lead">Aktorzy:<small> @Html.Label(@movie.Actors.ToString())</small></p>
+                                <p class="lead">Długość:<small> @Html.Label(@movie.Duration.ToString())</small></p>
+
+                            </div>
+                            <div class="col-md-5 text-xs-center p-y-1">
+                                <div id="FantasyMovieDscr" class="jumbotron bg-light p-x-0">
+                                    <h4 class="display-3 bg-primary">Opis:</h4>
+                                    <p class="lead"><small> @Html.Label(@movie.Text.ToString())</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a id="button" href="" class="btn btn-primary btn-block my-10">Read More<span class="badge">@Session["count"]</span></a>
+
+                </div>
+            </div>
+
+            <div class="col-md-4"></div>
+
+        </div>
+    </div>
+    <br />
+    <br />
+
+}
+

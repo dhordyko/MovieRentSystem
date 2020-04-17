@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MovieRent.BundleConfig">
+    <Position X="6.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.ApplicationUserManager">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.ApplicationSignInManager">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.RouteConfig">
+    <Position X="12.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.WebApiConfig">
+    <Position X="12.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\WebApiConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.MvcApplication">
+    <Position X="10.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Controllers.AccountController">
+    <Position X="0.5" Y="0.75" Width="2.75" />
+    <NestedTypes>
+      <Class Name="MovieRent.Controllers.AccountController.ChallengeResult" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controllers\AccountController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAABAChACAADAAAAAFgEgAABAABMKIAAAMRAAQgAAA=</HashCode>
+      <FileName>Controllers\AccountController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Controllers.AddToCartController">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIABACgAAAAFAAAAABgBAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AddToCartController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Controllers.CustomersController">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABAAAAAAAAAAAAAAAAAACAAEIAAAAAAA=</HashCode>
+      <FileName>Controllers\CustomersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Controllers.HomeController">
+    <Position X="6.75" Y="9.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAABAEACAAAAAAAAAAAAAEAAAEABAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Controllers.ManageController">
+    <Position X="2.25" Y="9.25" Width="2" />
+    <NestedTypes>
+      <Enum Name="MovieRent.Controllers.ManageController.ManageMessageId" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controllers\ManageController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAABACAQiAAhAAAAEFhAAAAAAEAIMIAAEEEgAAkAAA=</HashCode>
+      <FileName>Controllers\ManageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Controllers.MovieController">
+    <Position X="6.75" Y="12.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABAAAAAAAAAAAAAAAAAACAAEAgAAAAAA=</HashCode>
+      <FileName>Controllers\MovieController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Controllers.OrderController">
+    <Position X="4.5" Y="12.75" Width="1.75" />
+    <InheritanceLine Type="System.Web.Mvc.Controller" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="5.25" Y="1.75" />
+        <Point X="5.25" Y="1.375" />
+        <Point X="4.375" Y="1.375" />
+        <Point X="4.375" Y="2.875" />
+        <Point X="5.417" Y="2.875" Type="JumpStart" />
+        <Point X="5.583" Y="2.875" Type="JumpEnd" />
+        <Point X="5.875" Y="2.875" />
+        <Point X="5.875" Y="12.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABAAAAAAAAAAAAAAAIAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\OrderController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Controllers.Api.CustomersController">
+    <Position X="7.25" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAABgAABAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Controllers\Api\CustomersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Controllers.Api.OrdersController">
+    <Position X="10.25" Y="14" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAEAAAAABAAA=</HashCode>
+      <FileName>Controllers\Api\OrdersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Controllers.API.MoviesController">
+    <Position X="0.5" Y="13" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAQAAAFAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\Api\MoviesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Dtos.CustomerDto">
+    <Position X="23" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgAACAAAAAAAAAACAQCAAAAAAACAAAAIAAAAAA=</HashCode>
+      <FileName>Dtos\CustomerDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Dtos.GenreTypeDto">
+    <Position X="10.5" Y="8.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dtos\GenreTypeDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Dtos.MembershipTypeDto">
+    <Position X="11.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dtos\MembershipTypeDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Dtos.MovieDto">
+    <Position X="15" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAMAAAAAAAAAAQAAAAAABAAAAggCABAAAA=</HashCode>
+      <FileName>Dtos\MovieDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Dtos.OrdersDto">
+    <Position X="15.75" Y="12.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CBEAAAAAIAAAAAAAAAAAAgQAAQCAABAAAEAAAAACAAg=</HashCode>
+      <FileName>Dtos\OrdersDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Migrations.addmovies" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201904041005027_addmovies.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MovieRent.Migrations.actors" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="2.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201904041251474_actors.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MovieRent.Migrations.Configuration">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Migrations\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Models.LoginViewModel">
+    <Position X="8.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAgAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Models.RegisterContext">
+    <Position X="25.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Models.ResetPasswordViewModel">
+    <Position X="0.5" Y="15.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAgAAAAAAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Models.ForgotPasswordViewModel">
+    <Position X="7" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Models.Country">
+    <Position X="8" Y="2.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Country.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Models.Customer">
+    <Position X="19.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgAACAAAAAAAAAACAQCAAAAAAACAAAAIAAAAAA=</HashCode>
+      <FileName>Models\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Models.GenreType">
+    <Position X="9.25" Y="5.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\GenreType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Models.ApplicationUser">
+    <Position X="16.25" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEgACAQAAAAAAAAAAAQCAAAIAAACAAAAIAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Models.ApplicationDbContext">
+    <Position X="10.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAgAAAAAEAAAAAAACQAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Models.IndexViewModel">
+    <Position X="15" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAQAAAAAAAAAAAAAAQAAAEAEA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Models.ManageLoginsViewModel">
+    <Position X="14.25" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Models.ChangePasswordViewModel">
+    <Position X="10.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Models.MembershipType">
+    <Position X="12.25" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAEAQAAAAAAAAAAAAEAAAABAA=</HashCode>
+      <FileName>Models\MembershipType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Models.Movie">
+    <Position X="21.75" Y="6.25" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAOgAAAAAAAAAQAAAAQABAAAgggiABAAAA=</HashCode>
+      <FileName>Models\Movie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.Models.Orders">
+    <Position X="17.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBEAAAAAIAAAAAAAAAAAAgQAAQCAABAAAEAAAAACAAg=</HashCode>
+      <FileName>Models\Orders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.View_Models.MembershipView">
+    <Position X="12.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAACAAAAAAEEAAAAAACAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>View Models\MembershipView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.View_Models.MovieViewModel">
+    <Position X="10.75" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAIAEEAAAAIAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View Models\MovieViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieRent.View_Models.RegisterListView">
+    <Position X="8.25" Y="8" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View Models\RegisterListView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.Mvc.Controller" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,240 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.field-validation-error{
+    color:red;
+    font-weight:700;
+}
+.input-validation-error{
+    border: solid 1px red;
+}
+.link{
+    color:white;
+    font-weight:700;
+}
+.thead-inverse{
+    color:white;
+    background-color:#158cba;
+}
+table.table-hover tbody tr:hover {
+    background-color: #e8eff9; 
+}
+#customers_filter label, #customers_length label{
+    background-color:#158cba;
+    font-weight:700;
+    color:white;
+    padding-left:10px;
+    border-radius:5px;
+}
+#customers_length label{
+    padding:10px;
+     background-color:#438def;
+     border-color:#127ba3;
+    border: 1px solid;
+}
+#customers_length{
+    margin-top:25px;
+}
+.modal-dialog{
+    width:400px;
+    
+    margin:150px auto;
+}
+.modal-footer{
+    margin:10px 0px;
+    border-top:none;
+      
+}
+.modal-body{
+background-color:#158cba;
+color:white;
+font-weight:700;
+
+}
+.modal .close{
+    color:red;
+}
+.card{
+    border: 1px solid  grey;
+    width:850px;
+    padding:15px;
+    border-radius:5px;
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     background-color:#f7f7f7;
+}
+.cover-image{
+  height:320px;
+    background-image:url(../Img/Covers/Les-Miserable-DVD-3D-Box-Art-745x1024.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    width:390px;
+    margin:0 auto;
+   margin-bottom:35px;
+   margin-top:35px;
+}
+.card-header{
+    padding:10px;
+    border-radius:2px;
+    opacity:0.7;
+}
+.item{height:400px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.item:nth-child(1){
+    background-image:url(../Img/Carousel/avatar-title.jpg);
+}
+.item:nth-child(2){
+    background-image:url(../Img/Carousel/brave-heart-title.jpg);
+   
+}
+.item:nth-child(3){
+    background-image:url(../Img/Carousel/dead-pool-title.jpg);
+   
+}
+.item:nth-child(4){
+    background-image:url(../Img/Carousel/titanic-title.jpg);
+   
+}
+#actors, #ActorInput,#ListBoxBtn{
+    margin-top:10px;
+}
+#director{
+    margin-top:7px
+}
+#FantasyData p{
+    margin-bottom:0px;
+}
+#FantasyMovieDscr.jumbotron{
+    padding:10px 5px 5px 18px;
+}
+#FantasyMovieDscr h4{
+    padding:5px;
+    border-radius:3px;
+    width:286px;
+}
+.cart-image{
+    width:55px;
+    height:55px;
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.cena{
+    font-weight:500;
+    font-size:30px;
+    float:right;
+    margin-right:75px;
+    color:red;
+}
+.order-list-button{
+    margin-top:8px;
+   
+}
+/*MyOrder-View*/
+#myorder-date-panel{
+    margin-top:30px;
+}
+.calendar-icon{
+    background-color:#158cba
+}
+.col-date{
+    float:right;
+}
+.col-date-center{
+    left:145px
+}
+select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+}
+
+/* For IE10 */
+select::-ms-expand {
+ content:"f0d1"
+}
+#title-page-card{
+    width:380px!important;
+}
+#card-img{
+    width:150px;
+    height:150px;
+}
+.my-popup{
+
+    display: table-cell;
+    vertical-align: middle;
+  
+}
+.my-popup .modal-footer{
+background-image:url(../Img/icons/cart-add-icon.png);
+     background-repeat: no-repeat;
+      background-size: contain;
+      background-position-x:left;
+      margin-left:65px;
+          
+}
+.modal-dialog{
+
+    margin:150px 0px;
+}
+.modal-content{
+    margin-right:250px;
+    margin-left:-250px
+}
+.delete-msg .modal-footer{
+        background-image:url(../Img/icons/table-remove-icon.png);
+     background-repeat: no-repeat;
+      background-size: contain;
+      background-position-x:left;
+      margin-left:65px;
+          
+}
+.delete-clients .modal-footer{
+background-image:url(../Img/icons/User-icon.png);
+     background-repeat: no-repeat;
+      background-size: contain;
+      background-position-x:left;
+      margin-left:65px;
+
+}
+.delete-orders .modal-footer {
+    background-image:url(../Img/icons/application-remove-icon.png);
+     background-repeat: no-repeat;
+      background-size: contain;
+      background-position-x:left;
+      margin-left:65px;
+}
+#newfilm{
+    margin-bottom:25px;
+    margin-top:25px;
+}
+#newfilm a:hover{
+    color:red;
+    text-decoration:none
+}

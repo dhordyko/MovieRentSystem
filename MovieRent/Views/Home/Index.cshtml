@@ -1,0 +1,127 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+   <div class="full-width-div">
+    <br>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+               
+                <div class="carousel-caption">
+                    <h3>Lorem ipsum </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit </p>
+                </div>
+            </div>
+
+            <div class="item">
+              
+                <div class="carousel-caption">
+                    <h3>Lorem ipsum </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit </p>
+                </div>
+            </div>
+
+            <div class="item">
+               
+                <div class="carousel-caption">
+                    <h3>Lorem ipsum </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit </p>
+                </div>
+            </div>
+
+            <div class="item">
+              
+                <div class="carousel-caption">
+                    <h3>Lorem ipsum </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit </p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+</div>
+
+
+<br /><br />
+
+    <div class="row">
+        <div class="col-md-4">
+            <div id="title-page-card" class="card text-center">
+                <div class="card-header">
+                    Wypozyczalnia kaset
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title display-3">FANTASY</h4>
+                    <div class="cover-image mb-5"></div>
+                     <p class="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+                    <a href="@Url.Action("Fantasy", "Home")" class="btn btn-primary btn-block my-10">Zobać więcej</a>
+                </div>
+                <div class="card-footer text-muted">
+                    Nasza oferta
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div id="title-page-card" class="card text-center">
+                    <div class="card-header">
+                        Wypozyczalnia kaset
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title display-3">DRAMAT</h4>
+                        <div class="cover-image mb-5"></div>
+                        <p class="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+                        <a href="@Url.Action("Dramat", "Home")" class="btn btn-primary btn-block my-10">Zobać więcej</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Nasza oferta
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="title-page-card" class="card text-center">
+                        <div class="card-header">
+                            Wypozyczalnia kaset
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title display-3">KOMEDIA</h4>
+                            <div class="cover-image mb-5"></div>
+                            <p class="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+                            <a href="@Url.Action("Komedia", "Home")" class="btn btn-primary btn-block my-10">Zobać więcej</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                            Nasza oferta
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+@section scripts{
+    <script>
+
+        $('.carousel').carousel({
+            interval: 5000 //changes the speed
+        })
+
+    </script>
+    
+    
+    
+    }

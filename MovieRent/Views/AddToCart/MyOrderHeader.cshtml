@@ -1,0 +1,73 @@
+﻿@using MovieRent.Models
+@{
+    Orders obj = new Orders();
+
+ }
+    <div id="myorder-date-panel" class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div>
+                    <h5 class="display-4 lead text-muted "> Wybierz datę wypozyczenia</h5>
+                </div>
+                <div class='input-group date' id='datetimepicker2'>
+                    @Html.TextBox("calendar", "{0:yyyy-MM-dd HH:mm:ss}", new {@class = "form-control", @required="", @oninvalid = "this.setCustomValidity('Wprowadz datę odbioru')", @onvalid = "this.setCustomValidity('')" })
+                   
+
+                    <span class="input-group-addon calendar-icon">
+
+                        <span class="fa fa-calendar bg-light"></span>
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-3 col-date-center">
+                <div>
+                    <h5 class="display-4 lead text-muted "> Wybierz sposób dostawy</h5>
+                </div>
+                <div class='input-group date' id='datetimepicker2'>
+                  
+                    @Html.DropDownList( "DeliveryMode" , new List<SelectListItem>
+               {
+                   new SelectListItem { Text="Odbior osobisty",Value="Odbior"},
+                   new SelectListItem { Text="Dostawa",Value="Dostawa"}
+               }
+           , new { @class="form-control"})
+
+                    <span class="input-group-addon calendar-icon truck">
+
+                        <span class="fa fa-truck"></span>
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="col-md-3 col-date">
+                <div>
+                    <h5 class="display-4 lead text-muted "> Wybierz termin wypozyczenia</h5>
+                </div>
+                <div class='input-group date' id='datetimepicker2'>
+                    @Html.DropDownList("RentPeriod", new List<SelectListItem>
+               {
+                   new SelectListItem { Text="3 dni",Value="3"},
+                   new SelectListItem { Text="5 dni",Value="5"},
+                   new SelectListItem { Text="10 dni",Value="10"}
+               }
+           , new { @class = "form-control" })
+                    
+
+                    <span class="input-group-addon calendar-icon">
+
+                        <span class="fa fa-calendar bg-light"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+@section scripts{
+    <script>
+
+
+
+    </script>
+    
+    
+    }
